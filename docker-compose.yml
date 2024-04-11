@@ -2,7 +2,7 @@ version: "3.9"
 services:
   service-1:
     container_name: flaskapp
-    image: Jimify1171/service-1:latest
+    image: joemarsh/service-1:latest
     build: ./
     ports:
     - 5111:5111
