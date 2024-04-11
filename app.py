@@ -9,7 +9,7 @@ def home():
 
 @app.route('/about')
 def about():
-    return '<h1>Here is some BOLD updated text, subject to webhook</h1>'
+    return '<h1>I must scream but I have no mouth with which to do so</h1>'
 
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=5111)
